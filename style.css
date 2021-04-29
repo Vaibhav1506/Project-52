@@ -1,0 +1,58 @@
+h1{
+    color : red;
+    padding-left: 30px;
+    text-align: center;
+    font-family: "Blackadder ITC";
+}
+.header * {
+    border: solid;
+}
+
+.header{
+    display : flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: mediumvioletred;
+    font-family: "ALGERIAN";
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+   text-align: center;
+  
+
+}
+
+.description{
+    color: purple;
+    font-style: Bold;
+    font-family: "Agency FB";
+}
+
+a:link{
+    font-family: "Rockwell Extra Bold";
+    color:crimson;
+}
+
+a:visited{
+    color:crimson;
+    font-family: "Rockwell Extra Bold"; 
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover{
+    transform: scale(1.2);
+}
